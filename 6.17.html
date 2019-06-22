@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+        	.header{
+        		height:66px;
+        	}
+        	select{
+        		border:none;
+        		position:relative;
+        		left:920px;
+        	}
+        	.nav{
+				height:50px;
+				border-bottom: 4px solid rgb(58, 167, 71);
+			}
+			.a{
+				display:inline-block;
+				position:relative;
+				left:350px;
+			}
+			.b{
+				display:inline-block;
+				width:110px;
+				height:30px;
+				text-align:center;
+				line-height:30px;
+			}
+			.b:hover{
+				border-bottom:5px solid rgb(58, 167, 71);				
+				color:rgb(58, 167, 71);
+			}
+			.e{
+				position: relative;left:350px;
+	    	    height: 45px;width: 1218px;border: 1px solid rgb(200,200,200);
+			}
+			.c{
+				display:inline-block;
+				width:100px;
+				height:45px;
+				background-color:rgb(230, 230, 230);
+				text-align:center;
+				line-height:45px;
+			}
+			.d{
+				display:inline-block;
+				width:120px;
+                text-align:center;
+                line-height:45px;
+                color:rgb(145, 145, 145);
+			}
+			.d:hover{
+				color:rgb(58, 167, 71);
+			}
+			.sidebar{
+				position:fixed;
+				right:0px;top:200px;
+			}
+			.side{
+				width:80px;
+				height:120px;
+				background-color:black;
+			}
+			.sideimg{
+				position:relative;
+				left:25px;top:30px;
+			}	
+			.f{
+				width:300px;height:50px;
+				display:inline-block;
+				position:relative;
+				left:350px;
+				top:30px;
+			}	
+			.g{
+				display: inline-block;
+				position: relative;
+				bottom:5px;
+				left: 10px;
+			}	
+			.h{
+				width:275px;
+				height:295px;
+				margin:10px;
+				display:inline-block;
+				border:1px solid black;
+				float:left;
+			}
+			.i{
+				height:50px;width: 275px;
+				position: absolute; 
+				top:260px;
+				float: left;  
+				background-color:rgba(75,75,75,0.7);
+				text-align: center;color: white;
+			}
+			.ii{
+				height:50px;width: 275px;
+				position: absolute; 
+				top:580px;
+				float: left;  
+				background-color:rgba(75,75,75,0.7);
+				text-align: center;color: white;
+			}
+			
+			.i:hover {
+				height:195px;
+				top:10px;
+				font-size:20px;
+				padding-top:100px;
+			}
+			.ii:hover {
+				height:160px;
+				top:330px;
+				font-size:20px;
+				padding-top:130px;
+			}
+        </style>
+    </head>
+    <body>
+    	<form>
+	    	<div class="header">
+	    		<span style="position: relative;left:880px;color: rgb(145,145,145);">嘿，欢迎来买猜商城！</span>
+	    		<span style="position: relative;left:900px;">请登录&nbsp&nbsp&nbsp&nbsp免费注册</span>
+	    		<select >
+          			<option value = "dingdan"  selected> 我的订单 </option>	          
+       			</select>
+       			<select>
+          			<option value = "maicai"  selected> 我的买猜 </option>	          
+       			</select>
+       			<span style="position: relative;left:920px;">帮助中心</span> 
+       			<img src="xiaotu/wb.png" alt="wb" style="position: relative;left:970px;">
+       			<img src="xiaotu/wx.png" alt="wx" style="position: relative;left:1000px;"> 
+	    	</div>
+	    	<div style="height: 70px;">
+	    		<img src="xiaotu/logo.png" alt="logo" style="position: relative;left:350px;">
+	    		<input type="submit" value="请输入搜索内容" name="search" 
+	    			style="position: relative;left:480px;bottom: 15px;
+	    			width: 540px; height:50px;color: rgb(200,200,200); background-color: white;
+	    			border: 1px solid  black;">
+	    		<div style="position: relative;left:475px;bottom: 7px;display: inline-block;
+	    		    width: 60px;height: 48px;border: 1px solid black;">
+	    			<img src="xiaotu/search.png" alt="search" style="position: relative;left:10px;top:10px;">
+	    		</div>
+	    		<img src="xiaotu/cart.png" alt="cart" style="position: relative;left:680px;">
+	    	</div>
+	    	<div class="nav">
+	    		<select style="height: 30px;position: relative;left:360px;">
+          			<option value = "fenlei"  selected> 全部商品分类 </option>	          
+       			</select>
+	    		<ul class="a">
+					<li class="b">首页</li>
+					<li class="b">名酒</li>
+					<li class="b">茗茶</li>
+					<li class="b">玉石</li>
+					<li class="b">休闲食品</li>
+					<li class="b">洗护用品</li>
+					<li class="b">土特产</li>
+					<li class="b">积分商城</li>
+					<li class="b">抽奖游戏</li>
+				</ul>
+	    	</div>
+	    	<div style="height: 670px;width: 100%;
+	    	     background-image:url(xiaotu/banner.png)">	    		
+	    	</div>
+	    	<div style="height: 60px;">
+	    		<span style="position: relative;left:370px;top:20px;font-weight: 700;">首 页</span>
+	    		<span style="position: relative;left:370px;top:20px;color: rgb(145,145,145);"> &nbsp&nbsp>&nbsp&nbsp玉石</span>
+	    		<span style="position: relative;left:1300px;top:20px;color: rgb(145,145,145);">共200件相关商品</span>
+	    	</div>
+	    	<div class="e">
+				<li class="c">玉石</li>
+				<li class="d">白玉</li>
+				<li class="d">碧玉</li>
+				<li class="d">黄玉</li>
+				<li class="d">和田玉</li>
+				<li class="d">翡翠</li>
+				<li class="d">绿松玉</li>
+				<li class="d">墨玉</li>					
+			</div>
+			<div class="e">
+				<li class="c">其他</li>
+				<li class="d">吊坠</li>
+				<li class="d">扳指</li>
+				<li class="d">手镯</li>										
+			</div>
+			<div class="e">
+				<li class="c">地区</li>
+				<li class="d">北京</li>
+				<li class="d">安徽</li>
+				<li class="d">福建</li>
+				<li class="d">内蒙古</li>
+				<li class="d">宁夏</li>
+				<li class="d">黑龙江</li>
+				<li class="d">河北</li>	
+				<li class="d"></li>
+				<li class="d">更多</li>					
+			</div>	
+			<div class="sidebar">
+				<div class="side">
+					<img src="xiaotu/cart1.png" alt="cart1" class="sideimg">
+				</div>
+				<div class="side" style="border-bottom: 1px solid rgb(200,200,200); border-top: 1px solid rgb(200,200,200); ">
+					<img src="xiaotu/qq.png" alt="qq" class="sideimg">
+				</div>
+				<div class="side">
+					<img src="xiaotu/zuji.png" alt="zuji" class="sideimg">
+				</div>
+				<div class="side" style="border-bottom: 1px solid rgb(200,200,200); border-top: 1px solid rgb(200,200,200); ">
+					<img src="xiaotu/erweima.png" alt="erweima" class="sideimg">
+				</div>
+				<div class="side">
+					<img src="xiaotu/gotop.png" alt="gotop" class="sideimg">
+				</div>
+
+			</div>
+			<div style="height: 850px;width: 1200px; position:relative;left: 350px;top: 80px;">
+				
+					<div class="h" >
+						<img src="xiaotu/img1.png" alt="img1"  >
+						<div class="i" >
+							<span>竞猜价: ¥ 399.00</span>
+							<br/>
+							<span>翡翠千手观音吊坠</span>
+						</div>
+					</div>
+					<div class="h" >
+						<img src="xiaotu/img2.png" alt="img2" style="padding: 30px 0px 0px 15px;">
+						<div class="i" >
+							<span>竞猜价: ¥ 1980.00</span>
+							<br/>
+							<span>翡翠龙凤吊坠</span>
+						</div>
+					</div>
+					<div class="h">
+						<img src="xiaotu/img3.png" alt="img3" style="padding: 30px 0px 0px 15px;">
+						<div class="i" >
+							<span>竞猜价: ¥ 199.00</span>
+							<br/>
+							<span>翡翠花蕊吊坠</span>
+						</div>
+					</div>
+					<div class="h">
+						<img src="xiaotu/img4.png" alt="img4" style="padding: 30px 0px 0px 15px;">
+						<div class="i" >
+							<span>竞猜价: ¥ 199.00</span>
+							<br/>
+							<span>翡翠如意吊坠</span>
+						</div>
+					</div>
+				
+					<div class="h">
+						<img src="xiaotu/img5.png" alt="img5" style="padding: 30px 0px 0px 15px;">
+						<div class="ii" >
+							<span>竞猜价: ¥ 99.00</span>
+							<br/>
+							<span>翡翠婵吊坠</span>
+						</div>
+					</div>
+					<div class="h">
+						<img src="xiaotu/img6.png" alt="img6" style="padding: 30px 0px 0px 15px;">
+						<div class="ii" >
+							<span>竞猜价: ¥ 99.00</span>
+							<br/>
+							<span>翡翠观音（浅色）吊坠</span>
+						</div>
+					</div>
+					<div class="h">
+						<img src="xiaotu/img7.png" alt="img7" style="padding: 30px 0px 0px 15px;">
+						<div class="ii" >
+							<span>竞猜价: ¥ 199.00</span>
+							<br/>
+							<span>翡翠平安扣（深色）吊坠</span>
+						</div>
+					</div>
+					<div class="h">
+						<img src="xiaotu/img8.png" alt="img8" style="padding: 30px 0px 0px 15px;">
+						<div class="ii" >
+							<span>竞猜价: ¥ 199.00</span>
+							<br/>
+							<span>翡翠如意吊坠</span>
+						</div>
+					</div>
+			</div>
+			<div style="height: 100px;background-color:rgb(245,245,245); ">
+				<div class="f">
+					<img src="xiaotu/f1.png" alt="f1" >
+					<div class="g" ">
+						<span>资质认证</span>
+						<br/>
+						<span style="font-size: 15px;">服务商100%实名认证</span>
+					</div>
+				</div>
+				<div class="f">
+					<img src="xiaotu/f2.png" alt="f2" ">
+					<div class="g" ">
+						<span>支付安全</span>
+						<br/>
+						<span style="font-size: 15px;">明码标价支付及信息安全</span>
+					</div>
+				</div>
+				<div class="f">
+					<img src="xiaotu/f3.png" alt="f3" ">
+					<div class="g" ">
+						<span>保险赔付</span>
+						<br/>
+						<span style="font-size: 15px;">为您提供担保赔付</span>
+					</div>
+				</div>
+				<div class="f">
+					<img src="xiaotu/f4.png" alt="f4" ">
+					<div class="g" ">
+						<span>售后无忧</span>
+						<br/>
+						<span style="font-size: 15px;">服务出问题经理全程跟进</span>
+					</div>
+				</div>
+			</div>    	
+	    	<div style="height: 100px;text-align: center;padding-top: 10px; background-color: rgb(50,50,50); color: white;">
+	    		<p>首页&nbsp|&nbsp工商代理&nbsp|&nbsp财务代记账&nbsp|&nbsp股权交易与变更&nbsp|&nbspE企业贷款&nbsp|&nbsp办公室租赁&nbsp|&nbsp社保公积金代理&nbsp|&nbsp法律服务</p>
+	    		<p>2017-2018 买猜商城有限公司 版权所有</p>
+	    	</div>
+	    </form>
+    </body>
+</html>
